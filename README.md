@@ -120,7 +120,7 @@ Run the balanced and under-sampled regimes in separate output directories so tha
 ### Balanced regime: d = 256 and n = 256
 
 ```bash
-python run_whitened_spectrum_experiment.py \
+python Whitened_spectrum_experiment.py \
   --solver gurobi \
   --d 256 \
   --n 256 \
@@ -137,7 +137,7 @@ python run_whitened_spectrum_experiment.py \
 ### Under-sampled regime: d = 256 and n = 128
 
 ```bash
-python run_whitened_spectrum_experiment.py \
+python Whitened_spectrum_experiment.py \
   --solver gurobi \
   --d 256 \
   --n 128 \
