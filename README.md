@@ -206,13 +206,9 @@ The upper bound `b_plus` is an oracle quantity in the synthetic experiments beca
 The numerical results are generated from synthetic data. No external dataset is required.
 The Python code used to generate the numerical results will be made publicly available upon acceptance.
 
-```text
-[The DOI will be added after the first archived release.]
-```
-
 ## Citation
 
-A `CITATION.cff` file is included. The DOI will be added after the first archived release.
+The archived release is available at Zenodo: DOI: 10.5281/zenodo.20670779
 
 ## Contact
 
