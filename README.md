@@ -1,5 +1,7 @@
 # Reproducibility files for “Whitened Moment Estimation and Spectrum Recovery under Heteroskedastic Noise”
 
+[![DOI](https://zenodo.org/badge/1267551346.svg)](https://doi.org/10.5281/zenodo.20670778)
+
 ## Overview
 
 This repository contains the Python code used to reproduce the synthetic experiments in the manuscript:
@@ -208,7 +210,7 @@ The Python code used to generate the numerical results will be made publicly ava
 
 ## Citation
 
-The archived release is available at Zenodo: DOI: 10.5281/zenodo.20670779
+The archived release is available at Zenodo: DOI: [10.5281/zenodo.20670779](https://doi.org/10.5281/zenodo.20670779)
 
 ## Contact
 
