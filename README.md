@@ -110,12 +110,13 @@ The script uses a base random seed of `2026`. For reproducibility, a fixed offse
 identity:  2026
 two_spike: 2027
 toeplitz:  2028
+```
 
 Within each covariance setting, the random number generator is initialized once. The ten trials are then generated sequentially from the same random number stream. The generated CSV files record both the base seed and the setting-specific seed.
 
 ## Reproduce the manuscript results
 
-Run the balanced and under-sampled regimes in separate output directories so that files are not overwritten.
+Run the two regimes in separate output directories to avoid overwriting files.
 
 ### Balanced regime: d = 256 and n = 256
 
