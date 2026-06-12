@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Whitened Moment Estimation and Spectrum Recovery under Heteroskedastic Noise"
+type: software
+authors:
+  - family-names: Hu
+    given-names: Xinzhong
+    affiliation: "School of Mathematics, Harbin Institute of Technology"
+    orcid: "https://orcid.org/0009-0009-4842-7779"
+  - family-names: Chen
+    given-names: Jiaqi
+    affiliation: "School of Mathematics, Harbin Institute of Technology"
+version: 1.0.0
+date-released: 2026-06-13

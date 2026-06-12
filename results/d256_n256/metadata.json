@@ -1,0 +1,37 @@
+{
+  "config": {
+    "settings": [
+      "identity",
+      "two_spike",
+      "toeplitz"
+    ],
+    "k": 7,
+    "d": 256,
+    "n": 256,
+    "num_runs": 10,
+    "seed": 2026,
+    "tau_min": 0.3,
+    "tau_max": 1.0,
+    "b_plus_multiplier": 1.1,
+    "eps": null,
+    "timelimit": 60,
+    "solver": "auto",
+    "plot_scale": "sqrt",
+    "output_dir": "results"
+  },
+  "python": "3.9.12 (main, Apr  4 2022, 05:22:27) [MSC v.1916 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "numpy": "2.0.2",
+  "pandas": "2.3.2",
+  "matplotlib": "3.9.4",
+  "scipy": "1.13.1",
+  "gurobipy": "12.0.3",
+  "command": "f:/Download/run_whitened_spectrum_experiment_pylance_fixed.py",
+  "notes": [
+    "b_plus_oracle is computed from the known synthetic population covariance.",
+    "The manuscript values are generated with Gurobi; SciPy is a fallback backend.",
+    "Table errors are eigenvalue-scale even when CDF plots use sqrt scale.",
+    "CDF figures show faint individual-trial curves and darker mean curves.",
+    "Setting-specific RNG seeds are base seed + 0, + 1, and + 2 for identity, two_spike, and toeplitz."
+  ]
+}

@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.matplotlib/
+.venv/
+venv/
+.vscode/
+.DS_Store
+Thumbs.db
